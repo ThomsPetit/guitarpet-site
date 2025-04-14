@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuitarPet – Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .logo {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .email-signup {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    input[type="email"] {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffce00;
+      color: #1f1c2c;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #ffd633;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🎸 GuitarPet</div>
+    <h1>TamaTuna is swimming your way!</h1>
+    <p>Our musical pet tuner is tuning up for launch. Stay in the loop:</p>
+    <form class="email-signup" action="#" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+</body>
+</html>
